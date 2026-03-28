@@ -1,9 +1,9 @@
 # mcp-inspector: A local proxy for inspecting agent-tool MCP traffic.
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/mrawal/mcp-inspector/ci.yml?branch=main&style=for-the-badge)](https://github.com/mrawal/mcp-inspector/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/manishrawal95/mcp-inspector/ci.yml?branch=main&style=for-the-badge)](https://github.com/manishrawal95/mcp-inspector/actions)
 [![PyPI version](https://img.shields.io/pypi/pyversions/mcp-inspector?style=for-the-badge)](https://pypi.org/project/mcp-inspector/)
 [![License](https://img.shields.io/pypi/l/mcp-inspector?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/mrawal/mcp-inspector?style=for-the-badge)](https://github.com/mrawal/mcp-inspector)
+[![GitHub Stars](https://img.shields.io/github/stars/manishrawal95/mcp-inspector?style=for-the-badge)](https://github.com/manishrawal95/mcp-inspector)
 
 `mcp-inspector` is a CLI tool that acts as a local proxy to intercept, parse, and pretty-print Model Context Protocol (MCP) traffic. It provides human-readable, colorized logs of tool calls, arguments, and responses in your terminal. This drastically simplifies debugging for any developer building with the new AI agent and tool-use stack.
 
@@ -11,8 +11,7 @@
 
 Imagine your terminal lighting up with a crystal-clear, structured view of every tool call your AI agent makes. `mcp-inspector` turns a black box of HTTP requests into an organized, color-coded log, showing you exactly what function was called, the arguments passed, and the data returned -- all in real-time. No more `print()` statements or digging through raw server logs.
 
-<!-- Add demo GIF here -->
-![MCP Inspector Demo GIF](https://raw.githubusercontent.com/mrawal/mcp-inspector/main/docs/demo.gif)
+<!-- Demo GIF placeholder -- record with asciinema or vhs -->
 
 ### Quick Start
 
